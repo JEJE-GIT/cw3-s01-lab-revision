@@ -1,0 +1,282 @@
+/*--------------------SETTINGS-----------------------*/
+
+/* font-family: 'Expletus Sans', cursive; */
+/* font-family: 'Rubik', sans-serif; */
+
+
+
+
+
+
+
+/*-------------------GENERIC-------------------------*/
+
+*, *:before, *:after {
+
+    box-sizing: inherit;
+
+}
+
+li {
+
+    list-style: none;
+
+}
+
+h1, h2 {
+
+    margin: 0;
+
+}
+
+
+
+/*--------------------------------ELEMENTS------------------------------------*/
+
+body {
+
+    margin: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;;
+
+}
+
+
+/* STYLER LES A */
+
+a {
+
+    color: #2D2D2D;
+    text-decoration: none;
+
+}
+
+/* STYLER LES HOVER DES A */
+
+li :hover {
+
+    color: #FFFCFC;
+    text-decoration-line: underline;
+
+}
+
+
+/* STYLER LES H1 */
+
+h1 {
+
+    color: #2D2D2D;
+    font-family: Expletus Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+
+}
+
+/* STYLER LES H2 */
+
+h2 {
+
+    font-family: Expletus Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+/*-------------------COMPONENTS-------------------------*/
+
+.conteneur {
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+
+
+/* header principale */
+
+.header-principal {
+
+    background: #FF9800;
+
+}
+
+.nav-principale {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.nav-principale ul {
+
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-principale ul li {
+
+    margin-left: 30px;
+
+}
+
+/* hero */
+
+.hero {
+
+    background: #FFC107;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero h1 {
+
+    padding: 88px 0;
+
+}
+
+
+/* INFORMATION */
+
+.information {
+
+    margin: 30px 0;
+
+}
+
+.information .conteneur {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.carte {
+
+    width: 31%;
+   background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.carte header {
+
+    padding: 60px 0;
+    text-align: center;
+
+}
+
+.carte:nth-child(1) header {
+
+    background: #E34E26;
+
+}
+
+.carte:nth-child(2) header {
+
+    background: #0270BB;
+
+}
+
+.carte:nth-child(3) header {
+
+    background: #F8DC3D;
+
+}
+
+.conteneur .content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 20px;
+
+}
+
+.bouton {
+
+    background: #FFC107;
+    border: 1px solid #e64a19;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.bouton:hover {
+
+    background: #E64A19;
+    color: #FFFFFF;
+
+}
+
+.carte-footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.vues {
+
+    color: #E64A19;
+
+}
+
+
+/* FOOTER PRINCIPALE */
+
+.footer-principal {
+
+    background: #E64A19;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding: 40px;
+
+}
+
+.footer-principal h3 {
+
+    margin: 0;
+    font-size: 17px;
+    font-weight: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------UTULITIES-------------------------*/
+
+
